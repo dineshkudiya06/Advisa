@@ -100,7 +100,7 @@ img {
     padding: 0 15px;
 }
 
-a, img {
+a, img, i {
     cursor: pointer;
 }
 
@@ -141,8 +141,11 @@ header {
     right: 0;
     width: 100%;
     z-index: 1000;
-    padding: 15px 0;
     background: var(--danger);
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 header .navbar {
@@ -258,6 +261,10 @@ header .toggle-btn {
      Home Banner End
 ------------------------- */
 
+/* -------------------------
+   Seminar Start
+------------------------- */
+
 .seminar {
     background: rgb(41, 38, 92);
     padding: 50px 0;
@@ -266,9 +273,6 @@ header .toggle-btn {
 .seminar .seminar-row {
     display: flex;
     align-items: center;
-
-
-
 }
 
 .seminar .seminar-col {
@@ -284,13 +288,11 @@ header .toggle-btn {
     display: flex;
     align-items: center;
     gap: 10px;
-
 }
 
 .seminar .text {
     display: flex;
     flex-direction: column;
-
 }
 
 .seminar .text p {
@@ -298,6 +300,13 @@ header .toggle-btn {
     font-size: 16px;
 }
 
+/* -------------------------
+   Seminar End
+------------------------- */
+
+/* -------------------------
+   Advisa Training Start
+------------------------- */
 
 .advisa-training {
     padding: 100px 0;
@@ -313,7 +322,6 @@ header .toggle-btn {
     font-weight: 600;
     color: var(--black);
     text-align: center;
-
 }
 
 .advisa-training .advisa-training-title p {
@@ -335,8 +343,7 @@ header .toggle-btn {
     text-align: center;
 }
 
-
-.advisa-training h3 {
+.advisa-training .title-04 {
     margin-bottom: 15px;
 }
 
@@ -347,7 +354,6 @@ header .toggle-btn {
 
 .advisa-training .training-icon {
     background: var(--danger);
-
     width: 80px;
     height: 80px;
     border-radius: 50%;
@@ -363,6 +369,9 @@ header .toggle-btn {
     color: var(--white);
 }
 
+/* -------------------------
+   Advisa Training End
+------------------------- */
 
 .owl-carousel .owl-item img {
     display: initial;
